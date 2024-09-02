@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- header -->
+
+    <header class="display-flex align-items-center justify-content-space-between">
+
+        <img src="../static/img/logo.svg" alt="logo"> <!-- logo -->
+
+        <nav class="display-none-lg"> <!-- barra de navegação -->
+            <ul class="display-flex">
+                <li><a href="#sobre">Quem Somos</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#form" class="btn color-white">Solicite um orçamento</a></li></li>
+            </ul>
+        </nav>
+
+        <!-- <div id = "menu-hamburguer" class="display-none display-block-lg"></div> --> <!-- menu hamburguer -->
+        <img onclick="exibir ()" src="../static/img/menu-de-hamburguer.png" class="display-none display-block-lg">
+
+    </header> 
+
+    <div id="options">
+        <nav>
+            <ul>
+                <li><a href="#sobre">Quem Somos</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#form" class="btn color-white">Solicite um orçamento</a></li></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <!-- fim header -->
+
+    <!-- main -->
+
+    <main>
+        <div class="display-flex flex-direction-column align-items-center justify-content-center text-align-center">
+            <h1>Soluções integradas e personalizadas com <br>Excelência, Segurança e Sustentabilidade.</h1>
+            
+        </div>
+    </main>
+
+    <!--fim main-->
+
+    <!--sobre-->
+
+    <section id="sobre" class="text-align-center-md">
+        <div class="display-flex flex-direction-column justify-content-center">
+            <h2>Por que a PMP Engenharia?</h2>
+
+            <div class="display-flex flex-direction-column-md align-items-center-md">
+                <img src="../static/img/sobre/mingcute_happy-line.svg" class="">
+
+                <span>
+                    <h3>Satisfação do Cliente</h3>
+                    <p>Superamos as expectativas através de um atendimento personalizado e focado em suas necessidades.</p>
+                </span>
+            </div>
+
+            <div class="display-flex flex-direction-column-md align-items-center-md">
+                <img src="../static/img/sobre/fluent_money-16-regular.svg" class="">
+
+                <span>
+                    <h3>Eficiência e Economia</h3>
+                    <p>Oferecemos soluções integradas que otimizam custos e tempo, garantindo resultados excepcionais.</p>
+                </span>
+            </div>
+
+            <div class="display-flex flex-direction-column-md align-items-center-md">
+                <img src="../static/img/sobre/hugeicons_security.svg" class="">
+
+                <span>
+                    <h3>Segurança e Conformidade</h3>
+                    <p>Garantimos a regularização junto ao Corpo de Bombeiros e seguimos rigorosamente todas as normas de segurança.</p>
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <!--fim sobre-->
+
+    <!-- parceiros -->
+
+    <section id="clientes" class="text-align-center">
+        <h2>Clientes</h2>
+
+        <div class="display-flex justify-content-space-around ">
+            <img src="../static/img/parceiros/fund bradesco.svg">
+            <img src="../static/img/parceiros/Logo Banco do Nordeste.svg" class="display-none-sm">
+            <img src="../static/img/parceiros/Logo Britsh and American.svg" class="display-none-md">
+            <img src="../static/img/parceiros/Logo Marício de Nassau.svg" class="display-none-lg">
+            <img src="../static/img/parceiros/g10.svg" class="display-none-xl">
+        </div>
+
+    </section>
+
+    <!-- fim parceiros-->
+
+    <!-- Serviços -->
+
+    <section id="servicos" class="text-align-center display-flex flex-direction-column">
+        
+        <h2> Serviços </h2>
+
+        <div class="display-flex justify-content-space-between flex-direction-column-lg">
+            <div>
+                <img src="../static/img/servicos/material-symbols-light_construction.svg">
+    
+                <h3>Execução de Obras</h3>
+    
+                <p>A execução de obras bem planejada, com materiais duráveis e mão de obra qualificada, garante qualidade, economia e satisfação, transformando seu sonho em realidade dentro do prazo e orçamento.</p>
+            </div>
+
+            <div>
+                <img src="../static/img/servicos/ic_baseline-electric-bolt.svg">
+    
+                <h3>Instalações Elétricas</h3>
+    
+                <p>O projeto elétrico bem-executado garante economia, segurança e funcionalidade, prevenindo acidentes e assegurando conformidade com a NBR 5410.</p>
+            </div>
+
+            <div>
+                <img src="../static/img/servicos/hugeicons_fire.svg">
+    
+                <h3>Combate a incêndios</h3>
+    
+                <p>A prevenção eficaz de incêndios não só salva vidas e propriedades, mas também simplifica a conformidade legal, com a PMP Engenharia oferecendo soluções completas e desburocratizadas.</p>
+            </div>
+        </div>
+
+        <div class="display-flex justify-content-space-between flex-direction-column-lg">
+            <div>
+                <img src="../static/img/servicos/ph_building.svg">
+    
+                <h3>Central GLP</h3>
+    
+                <p>A segurança no armazenamento e distribuição de GLP é essencial, com projetos e instalações realizados por profissionais habilitados e conformidade com as normas vigentes, garantindo proteção eficaz para todos.</p>
+            </div>
+
+            <div>
+                <img src="../static/img/servicos/lucide_construction.svg">
+    
+                <h3>Projeto Estrutural</h3>
+    
+                <p>Projetos estruturais de qualidade garantem segurança, estabilidade e economia, atendendo às necessidades do cliente com soluções técnicas eficientes e conformidade com as normas, por profissionais capacitados.</p>
+            </div>
+
+            <div>
+                <img src="../static/img/servicos/carbon_security.svg">
+    
+                <h3>SPDA</h3>
+    
+                <p>A execução de obras bem planejada e gerenciada por engenheiros capacitados garante qualidade, economia e satisfação, transformando seu sonho em realidade dentro do prazo e orçamento estabelecidos.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- fim serviços -->
+
+    <section id="banner-3"></section>
+
+    <section id="projetos" class="text-align-center">
+        <h2>Projetos</h2>
+
+        <div class="display-flex  flex-direction-column-lg">
+
+            <div>
+                <img src="../static/img/projetos/IMG_0903 1.svg">
+                <p>Lorem ipsum dolor Cidade, Estado</p>
+            </div>
+
+            <div>
+                <img src="../static/img/projetos/IMG_0565 1.svg">
+                <p>Lorem ipsum dolor Cidade, Estado</p>
+            </div>
+
+            <div>
+                <img src="../static/img/projetos/IMG_0555(1) 1.svg">
+                <p>Lorem ipsum dolor Cidade, Estado</p>
+            </div>
+        </div>
+
+        <div class="display-flex justify-content-flex-end justify-content-center-lg">
+            <a href="#" class="btn">Conheça nossos outros projetos</a>
+        </div>
+    </section>
+
+    <!-- fim projetos -->
+
+    <!-- contatos -->
+
+    <section id="contatos" class="display-flex flex-direction-column-lg text-align-center-lg">
+        
+        <img src="../static/img/contatos/DSC00938 1.svg" class="">
+        <div class="border display-flex flex-direction-column justify-content-space-around align-items-center-md">
+            <h2>A segurança que você confia, a qualidade que você merece.</h2>
+            <p>Não perca tempo. Vamos transformar suas ideias em realidade.</p>
+            <span>
+                <a class="btn" href="#">Fale conosco</a>
+            </span>
+        </div>
+    </section>
+
+    <!-- fim contatos -->
+
+    <!-- fim serviços -->
+
+    <section id="blog" class="text-align-center">
+        <h2>blog</h2>
+
+        <div class="display-flex  flex-direction-column-lg">
+
+            <div>
+                <img src="../static/img/projetos/IMG_0903 1.svg">
+                <p>Lorem ipsum dolor Cidade, Estado</p>
+            </div>
+
+            <div>
+                <img src="../static/img/projetos/IMG_0565 1.svg">
+                <p>Lorem ipsum dolor Cidade, Estado</p>
+            </div>
+
+            <div>
+                <img src="../static/img/projetos/IMG_0555(1) 1.svg">
+                <p>Lorem ipsum dolor Cidade, Estado</p>
+            </div>
+        </div>
+
+        <div class="display-flex justify-content-flex-end justify-content-center-lg">
+            <a href="#" class="btn">Conheça nossos outros projetos</a>
+        </div>
+    </section>
+
+    <!-- fim projetos -->
+
+    <!-- formulario -->
+
+    <section id="form" class="display-flex flex-direction-column-lg">
+        <div class="order-2-lg">
+            <div class="text-align-center">
+                <h2>Contate-nos</h2>
+                <h3>Deixe suas informações e <br>
+                entraremos em contato!</h3>
+            </div>
+
+            <form action="https://formspree.io/f/mwpepnbd" method="POST">
+                
+
+                <div><label>Nome</label></div>
+                <input type="text" id="nome" name="nome" placeholder="Nome" required>
+                
+                <div><label>Email</label></div>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+
+                <div><label>WhatsApp</label></div>
+                <input type="text" id="numero" name="numero" placeholder="WhatsApp" required>
+
+                <div><label>Sua cidade</label></div>
+                <input  type="text" id="cidade" name="cidade" placeholder="Cidade" required>
+
+                <div><label>Qual serviço você está interessado?</label></div>
+                <input id="mensagem" name="mensagem" placeholder="Serviço Interessado" required>
+
+                <button type="submit"class="btn">Enviar</button>
+
+            </form>
+        </div>
+        
+        <img src="../static/img/form/DSC00873 1.svg" alt="" class="order-1-lg">
+    </section>
+
+
+    <!-- fim formulario -->
+
+    <footer>
+        <div class="display-flex justify-content-space-around flex-direction-column-lg align-items-center-md text-align-center">
+            <div>
+                <img id="footer-logo" src="../static/img/footer/Logo Vertical - PMP 1.svg" alt="">
+
+                <div class="display-flex justify-content-space-around">
+                    <img src="../static/img/footer/mdi_instagram.svg" alt="">
+                    <img src="../static/img/footer/mingcute_whatsapp-line.svg" alt="">
+                    <img src="../static/img/footer/mdi_linkedin.svg" alt="">
+                </div>
+            </div>
+
+            <div id="footer-contato">
+                <h2>Contato</h2>
+
+                <p>R. Sen. Joaquim Píres, 1041-A - Ininga, Teresina - PI, <br> 64049-590</p>
+
+                <p>email@email.com</p>
+
+                <p>(86) 3011-1122</p>
+            </div>
+
+            <div id="footer-localizacao">
+                <h2>Localização</h2>
+                <div id="map"></div> 
+            </div>
+        </div>
+
+        <div id="copyright" class="text-align-center">
+            <p>PMP Engenharia ® 2014. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script>
+        const menu = document.getElementById ('options')
+
+        function exibir () {
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            }
+
+            else {
+                menu.style.display = 'block'
+            }
+        }
+
+        var map = L.map('map').setView([-5.0892, -42.8019], 13); // Defina a posição inicial e o nível de zoom
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+
+        L.marker([-5.0892, -42.8019]).addTo(map) // Adiciona um marcador na posição definida
+        .openPopup();
+
+    </script>
+    
+</body>
+</html>

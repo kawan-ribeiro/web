@@ -1,0 +1,592 @@
+/* estilização geral */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+/* tags */
+
+
+    /* header */
+
+header {
+    height: 12vh;
+    font-size: 1rem;
+    padding: 0 7.3%;
+}
+
+header > nav > ul { /* barra de navegaçao */
+    gap: 50px;
+}  
+
+header > nav > ul > li > a { /* ancoras */
+    color: black;
+}
+
+/* fim barra de navegação */
+
+#options {
+    min-height: 25vh;
+    padding:5%;
+    background-color: #313C72;
+    display: none;
+}
+
+#options > nav > ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+}
+
+#options > nav > ul > li > a {
+    color: white;
+}
+
+#options > nav > ul > li > a.btn {
+    background-color: #000e56ce;    
+}
+
+
+    /* fim header */
+
+    /* main */
+
+main > div{
+    background: black url("../img/banner.png") center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    gap: 3%;
+    letter-spacing: 2px;
+    padding: 0 10%;
+}
+
+main > div > h1 {
+    font-size: 3rem;
+}
+
+main > div > p {
+    font-size: 1.2rem;
+    color: whitesmoke;
+}
+
+    /* fim main */
+
+    /* sobre */
+
+#sobre > div{
+    height: 100vh;
+    background: url("../img/banner-2.png") center;
+    background-size: cover;
+    color: white;
+    font-size: 1.4rem;
+    padding: 0 5%;
+    gap : 10%;
+}
+
+#sobre > div > div{
+    gap : 1%;
+}
+
+#sobre > div > div > span{
+    display: flex;
+    flex-direction: column;
+    gap : 10px;
+}
+
+
+    /* fim sobre */
+
+    /* clientes */
+
+#clientes {
+    height: 50vh;
+    padding-top: 5%;
+}
+
+#clientes > div {
+    flex-wrap: wrap;
+    margin-top: 3%;
+}
+
+    /* fim clientes */
+
+    /* serviços */
+
+    #servicos {
+        padding: 5% 10%;
+        gap: 6%;
+    }
+
+    #servicos > div{
+        gap: 5%;
+        margin: 4% 0;
+    }
+
+    #servicos > div > div > h3{
+        margin: 5% 0;
+    }
+
+
+
+    /* fim serviços */
+
+    /*  banner-3 */
+
+    #banner-3 {
+        background: url("../img/banner-3.svg");
+        height: 25vh;
+    }
+
+    /* fim banner-3*/
+
+    /* projetos */
+
+    #projetos {
+        padding: 5% 10%; 
+    }
+
+    #projetos > div {
+        margin-top: 5%;
+        gap: 5%;
+    }
+
+    #projetos > div > div >  img {
+        margin-bottom: 5%;
+    }
+
+    /* fim projetos */
+
+    /* contatos*/
+
+    #contatos {
+        background: #11131D;
+        color: white;
+    }
+
+   
+
+    #contatos > * {
+        width: 50%;
+    }
+
+    #contatos > div {
+        padding: 3%;
+    }
+
+    #contatos > div > h2{
+        font-size: 2.5rem;
+    }
+
+
+    /* fim contatos */
+
+    /* blog */
+
+    #blog {
+        padding: 5% 10%; 
+    }
+
+    #blog > div {
+        margin-top: 5%;
+        gap: 5%;
+    }
+
+    #blog > div > div >  img {
+        margin-bottom: 5%;
+    }
+
+    /* fim blog */
+
+    /* formulario */
+
+    #form > div {
+        width: 50%;
+    }
+
+    #form > div > div > h3 {
+        margin: 1% 0 3% 0;
+        color: #313C72;
+    }
+
+    #form > div > form{ /* formulario */
+        padding-left: 20%;
+    }
+
+    #form > div > form > div > label{ 
+        font-weight: bold;
+        margin-bottom: 2%;
+    }
+
+    #form > div > form > div{ /* formulario */
+        margin: 2% 0;
+    }
+
+    #form > div > form > div > label{ /* formulario */
+        color: #313C72;
+    }
+
+    #form > div > form > input{ /* formulario */
+        width: 90%;
+        height: 7vh;
+        border: 1px solid gray;
+        border-radius: 5px;
+        font-size: 1rem;
+        padding-left: 2%;
+    }
+
+    #form > div > form > button {
+        margin: 2% 0;
+    }
+
+    #form > img {
+        width: 50%;
+    }
+
+    #form-div-button {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    /* fim formulario */
+
+    /* footer */
+
+    footer {
+        background: #11131D;
+        color: white;
+    }
+
+    #footer-contato {
+        padding-top: 2%;
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        gap: 10%;
+    }
+
+    #footer-localizacao {
+        width: 24%;
+        padding-top: 2%;
+        display: flex;
+        flex-direction: column;
+        gap: 10%;
+    }
+
+    #copyright {
+        padding: 2% 0;
+        margin-top: 2%;
+        border-top: 2px solid white;
+    }
+
+    #footer-logo {
+        width: 90%;
+    }
+
+
+    /* fim footer */
+
+    
+
+/* Classes */
+
+    /* flex box */
+
+.display-flex { 
+    display: flex;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
+.justify-content-space-around {
+    justify-content: space-around;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-flex-end {
+    justify-content: flex-end;
+}
+
+    /* fim flex box */
+
+    /* exibir*/
+
+.display-none {
+    display: none;
+}
+
+.display-block {
+    display: block;
+}
+
+    /* fim exibir */
+
+.text-align-center {
+    text-align: center;
+}
+
+.btn {
+    color: white;
+    background: #313C72;
+    border-radius: 10px;
+    padding: 15px 25px;
+}
+
+.border {
+    border: 2px solid black;
+}
+
+
+
+/* Responsive */
+
+@media (max-width: 1200px) {
+
+    .display-none-xl {
+        display: none;
+    }
+
+    #projetos {
+        padding: 5% 5%;
+    }
+
+    #contatos > div {
+        padding: 1%;
+    }
+
+
+}
+
+@media (max-width: 992px) {
+
+    .text-align-center-lg {
+        text-align: center;
+    }
+
+    /* main */
+
+    main > div > h1 { 
+        line-height: 5rem;
+    }
+
+    /* fim main */
+
+    .display-none-lg {
+        display: none;
+    }
+
+    .display-block-lg {
+        display: block;
+    }
+
+    .flex-direction-column-lg {
+        flex-direction: column;
+    }
+
+    #projetos {
+        padding: 5% 0;
+    }
+
+    #projetos > div {
+        margin-top: 5%;
+        gap: 5vh;
+    }
+
+    .justify-content-center-lg {
+        justify-content: center ; 
+    }
+
+      /* contatos */
+
+      #contatos > * {
+        width: 100%;
+        height: 50vh;
+    }
+
+    #contatos > img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #contatos > div {
+
+        padding: 5%;
+    }
+
+    /* blog */
+
+    #blog {
+        padding: 5% 0;
+    }
+
+    #blog > div {
+        margin-top: 5%;
+        gap: 5vh;
+    }
+
+    
+
+    /* fim blog */
+
+    /* form */
+
+    #form > img {
+        width: 100%;
+    }
+
+    #form > div {
+        width: 100%;
+        margin: 5vh 0;
+    }
+
+    #form > div > form > button {
+        width: 90%;
+    }
+
+    /* fim form */
+
+    .order-1-lg {
+        order: 1;
+    }
+    
+    .order-2-lg {
+        order: 2;
+    }
+
+    footer > div {
+        gap: 5vh;
+    }
+
+    #footer-contato {
+        padding-top: 2%;
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+    }
+
+}
+
+@media (max-width: 798px) {
+
+    html {
+        font-size: 14px;
+    }
+
+    /* sobre*/
+
+    #sobre > div{
+        gap: 0;
+        height: 150vh;
+        justify-content: space-around;
+    }
+
+    #sobre > div > div{
+        gap : 10px;
+    }
+
+    #sobre > div > div > img{
+        width: 10%;
+    }
+
+    .display-none-md {
+        display: none;
+    }
+
+    /* fim sobre*/
+
+
+    .text-align-center-md {
+        text-align: center;
+    }
+
+    .align-items-center-md {
+        align-items: center;
+    }
+
+    .flex-direction-column-md {
+        flex-direction: column;
+    }
+
+    #footer-localizacao {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    /* sobre */
+
+    .display-none-sm {
+        display: none;
+    }
+
+    #sobre > div > div > img{
+        width: 20%;
+    }
+
+    /* fim sobre*/
+
+    #clientes {
+        padding-top: 8%;
+    }
+    
+    #clientes > div {
+        margin-top: 15%;
+    }
+
+    #servicos {
+        padding: 5% 10%;
+        gap: 4%;
+    }
+
+    #servicos > div{
+        gap: 5%;
+        margin: 0;
+    }
+
+    #servicos > div > div > h3{
+        margin: 6% 0;
+    }
+
+    #servicos > div > div{
+        margin: 10% 0;
+    }
+
+    .align-items-center-md {
+        align-items: center;
+    }
+
+    .justify-content-center-md {
+        justify-content: center;
+    }
+
+}
+
+
+#map {
+    height: 300px; /* Defina a altura do mapa */
+    width: 100%; /* Defina a largura do mapa */
+}
+

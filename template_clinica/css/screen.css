@@ -1,0 +1,241 @@
+@media (max-width: 1267px) {
+    /* -------------------------------- feedbacks ------------------------------ */
+
+
+
+    #feedbacks-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 85px;
+    }
+
+    #feedbacks-content > div {
+        gap: 100px;
+    }
+}
+
+@media (max-width: 1045px) {
+    /* -------------------------------- sobre ------------------------------ */
+    
+    #sobre-img {
+        padding-left: 5%;
+    }
+
+    #sobre-text {
+        padding-left: 15%;
+        padding-top: 0;
+        gap: 25px;
+    }
+
+    /* -------------------------------- demo ------------------------------ */
+
+    #demo-img > img {
+        width: 100%;
+    }
+
+    #demo-text {
+        padding: 0 2%;
+
+    }
+}
+
+@media (max-width: 900px){
+
+    /* -------------------------------- header ------------------------------ */
+
+    #nav {
+        display: none;
+    }
+    
+    /* -------------------------------- main ------------------------------ */
+
+    main > div {
+        height: 75vh;
+    }
+
+    #menu {
+        display: block;
+    } 
+
+    #main-text {
+        width: 100%;
+        text-align: justify;
+        gap: 50px;
+    }
+
+    #main-text > span {
+        text-align: center;
+    }
+
+    #main-img {
+        display: none;
+    }
+
+    /* -------------------------------- clientes ------------------------------ */
+
+    #clientes {
+        margin-top: 25px;
+    }
+
+    #clientes > div {
+        flex-direction: column;
+    }
+
+    #clientes > div > div {
+        width: 100%;
+        margin-top: 25px;
+        margin-bottom: 5px;
+
+    }
+
+    #clientes > div > div > img{
+        width: 100px;
+    }
+
+    /* -------------------------------- sobre ------------------------------ */
+
+    #sobre {
+        margin-top: 75px;
+    }
+
+    #sobre-img {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+
+    #sobre-img > img {
+        width: 350px;
+    }
+
+    #sobre-text {
+        width: 50%;
+        text-align: justify;
+        gap: 25px;
+        padding-left: 5%;
+    }
+
+    /* -------------------------------- solucoes ------------------------------ */
+
+    #solucoes-content {
+        flex-direction: row;
+        gap: 0;
+    }
+
+    #solucoes-content > div {
+        flex-direction: column;
+        gap: 35px;
+        align-items: center;
+    }
+
+    .solucoes-box{
+        width: 80%;
+    }
+
+     /* -------------------------------- demo ------------------------------ */
+
+     #demo-text {
+        padding: 0 2%;
+        text-align: center;
+        width: 60%;
+    }
+
+}
+
+@media (max-width: 734px) {
+
+    #feedbacks {
+        margin-top: 50px;
+    }
+
+    #feedbacks-content {
+        gap: 45px;
+    }
+
+    #feedbacks-content > div {
+        flex-direction: column;
+        gap: 45px;
+    }
+}
+
+@media (max-width: 572px) {
+    /* -------------------------------- demo ------------------------------ */
+    #demo {
+        flex-direction: column;
+    }
+
+    #demo-img > img {
+        width: 100%;
+    }
+
+    #demo-text {
+        padding: 50px;
+        gap: 40px;
+        width: 100%;
+    }
+ }
+
+@media (max-width: 500px) {
+
+    /* -------------------------------- main ------------------------------ */
+
+    #main-text {
+        width: 100%;
+        text-align: center;
+        gap: 70px;
+    }
+
+    /* -------------------------------- clientes ------------------------------ */
+
+    #clientes > div > div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #clientes > div > div > img{
+        width: 120px;
+        margin: 35px 0;
+    }
+
+    /* -------------------------------- sobre ------------------------------ */
+
+    #sobre {
+        margin-top: 75px;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    #sobre-img {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #sobre-img > img {
+        width: 350px;
+    }
+
+    #sobre-text {
+        width: 100%;
+        text-align: justify;
+        gap: 25px;
+    }
+
+    #sobre-text > span {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    /* -------------------------------- solucoes ------------------------------ */
+
+
+    
+    #solucoes-content {
+        flex-direction: column;
+        gap: 25px;
+    }
+}
+
+

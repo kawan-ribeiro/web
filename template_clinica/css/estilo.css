@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    
+}
+
+/* ----------------------------------------------------- header ----------------------------------------------------- */
+
+header {
+    padding: 10px 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+}
+
+#navbar > ul {
+    gap: 25px;
+}
+
+header a {
+    color: #51509D;
+}
+
+
+#menu {
+    margin-top: 5px;
+    display: none;
+}
+
+#nav-menu {
+    display: none;
+    background-color: #F2F2F2;
+    padding: 25px 5%;
+    margin-top: 10px;
+}
+
+#nav-menu > ul{
+    flex-direction: column;
+    gap: 25px;
+    padding-left: 5px;
+}
+
+/* ----------------------------------------------------- main ----------------------------------------------------- */
+
+main > div {
+    width: 50%;
+    height: 85.5vh;
+}
+
+#main-text {
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    justify-content: center;
+    letter-spacing: 1px;
+}
+
+#main-img {
+    display: flex;
+    justify-content: center;
+}
+
+#main-img > img {
+    width: 478px;
+    height: auto;
+}
+
+/* ----------------------------------------------------- clientes ----------------------------------------------------- */
+
+#clientes {
+    background-color: #51509D;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 25px;
+    color: white;
+    width: 100%;
+}
+
+#clientes > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+#clientes > div > div {
+    display: flex;
+    width: 45%;
+    justify-content: space-around;
+}
+
+/* ----------------------------------------------------- sobre ----------------------------------------------------- */
+
+#sobre {
+    display: flex;
+    margin-top: 100px;
+}
+
+#sobre-img {
+    padding-left: 10%;
+    width: 40%;
+}
+
+#sobre-text {
+    padding: 0px 10% 15px 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
+    gap: 25px;
+}
+
+/* ----------------------------------------------------- soluçoes ----------------------------------------------------- */
+
+#solucoes {
+    padding-top: 100px;
+}
+
+#solucoes-text {
+    text-align: center;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#solucoes-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+
+#solucoes-content > div {
+    display: flex;
+    gap: 3%;
+    justify-content: center;
+
+}
+
+#solucoes-btn {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+/* ----------------------------------------------------- demo ----------------------------------------------------- */
+
+#demo {
+    background-color: #24244F;
+    display: flex;
+    margin-top: 50px;
+    color: white;
+}
+
+
+#demo-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10% 0 15%;
+    gap: 30px;
+}
+
+
+/* ----------------------------------------------------- feedbacks ----------------------------------------------------- */
+
+#feedbacks {
+    text-align: center;
+    padding-top: 5%;
+}
+
+#feedbacks-content {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+#feedbacks-content > div{
+    display: flex;
+    gap: 50px;
+}
+
+/* ----------------------------------------------------- footer ----------------------------------------------------- */
+
+footer {
+    background: #24244F;
+    margin-top: 50px;
+    color: white;
+    padding: 50px 10% 30px 6%;
+}
+
+#footer-text {
+    justify-content: space-between;
+}
+
+#footer-info {
+    display: flex;
+    gap: 150px;
+}
+
+#footer-info > div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+#footer-copyright {
+    text-align: center;
+    margin-top: 75px;
+}
